@@ -1,18 +1,18 @@
-# 🚀 Supply Chain Optimization & Delivery Risk Prediction
+# Supply Chain Optimization & Delivery Risk Prediction
 
-## 📌 Project Overview
+##  Project Overview
 In modern e-commerce and global trade, timely delivery is a critical driver of customer retention and operational profitability. This project provides an end-to-end data science approach to diagnosing, analyzing, and predicting supply chain inefficiencies. 
 
 By transitioning from descriptive diagnostic analytics to predictive machine learning, this pipeline empowers business stakeholders to proactively mitigate delivery delays, optimize profitability, and enhance customer satisfaction.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Language:** Python
 * **Data Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `matplotlib`, `seaborn`
 * **Machine Learning:** `scikit-learn` (Random Forest)
 * **Imbalanced Data Handling:** `imbalanced-learn` (SMOTE)
 
-## 📊 Key Features & Pipeline Steps
+##  Key Features & Pipeline Steps
 1. **Data Preprocessing & Cleaning:** * Removal of redundant columns and Personally Identifiable Information (PII).
    * Filtering of anomalous orders (e.g., canceled shipping).
    * Standardized datetime conversion.
@@ -29,8 +29,8 @@ By transitioning from descriptive diagnostic analytics to predictive machine lea
    * Implementation of **SMOTE** to generate synthetic data, solving the inherent class imbalance of supply chain datasets.
    * Training and evaluation of a **Random Forest Classifier** to accurately predict `Late_delivery_risk`.
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/supply-chain-delivery-predictor.git](https://github.com/your-username/supply-chain-delivery-predictor.git)
-   cd supply-chain-delivery-predictor
+   git clone [https://github.com/immanuelisaac/predictive-supply-chain-optimization.git](https://github.com/immanuelisaac/predictive-supply-chain-optimization.git)
+   cd predictive-supply-chain-optimization
